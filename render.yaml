@@ -30,8 +30,8 @@ databases:
 
 envVarGroups:
   - name: my-envvar-group
-  envVars:
-    - key: API_BASE_URL
-      value: https://api.example.com
-    - key: STRIPE_API_KEY
-      sync: false
+    envVars:
+      - key: API_BASE_URL
+        value: https://api.example.com
+      - key: STRIPE_API_KEY
+        sync: false
