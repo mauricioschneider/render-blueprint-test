@@ -27,3 +27,9 @@ services:
 databases:
   - name: django-app-db
     plan: free
+
+envVars:
+  - key: API_BASE_URL
+    value: https://api.example.com
+  - key: STRIPE_API_KEY
+    sync: false
