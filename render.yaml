@@ -2,10 +2,10 @@ services:
   - type: web
     plan: pro
     previewPlan: starter
-    name: django-app
-    runtime: python
-    repo: https://github.com/render-examples/django.git
-    buildCommand: './build.sh'
-    startCommand: 'python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker'
+    name: og-tag-test
+    runtime: node
+    repo: https://github.com/mauricioschneider/render-og-tag-test.git
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
     previews:
       generation: automatic
