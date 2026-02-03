@@ -1,7 +1,6 @@
 services:
   - type: web
     plan: pro
-    previewPlan: pro
     name: og-tag-test
     runtime: node
     repo: https://github.com/mauricioschneider/render-og-tag-test.git
@@ -9,3 +8,4 @@ services:
     startCommand: 'npm start'
     previews:
       generation: automatic
+      plan: starter
