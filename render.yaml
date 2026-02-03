@@ -21,4 +21,4 @@ services:
     startCommand: 'npm start'
     previews:
       generation: automatic
-      plan: starter
+      plan: pro
