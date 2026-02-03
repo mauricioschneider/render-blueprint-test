@@ -9,3 +9,13 @@ services:
     previews:
       generation: automatic
       plan: starter
+  - type: web
+    plan: starter
+    name: og-tag-test - starter
+    runtime: node
+    repo: https://github.com/mauricioschneider/render-og-tag-test.git
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    previews:
+      generation: automatic
+      plan: pro
